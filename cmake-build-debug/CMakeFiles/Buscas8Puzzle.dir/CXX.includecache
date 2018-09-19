@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hideki/CLionProjects/Buscas8Puzzle/src/8puzzle.h
+
+/home/hideki/CLionProjects/Buscas8Puzzle/src/largura/marcosHideki_0_largura.cpp
+iostream
+-
+marcosHideki_0_largura.h
+/home/hideki/CLionProjects/Buscas8Puzzle/src/largura/marcosHideki_0_largura.h
+../8puzzle.h
+/home/hideki/CLionProjects/Buscas8Puzzle/src/8puzzle.h
+queue
+-
+
+/home/hideki/CLionProjects/Buscas8Puzzle/src/largura/marcosHideki_0_largura.h
+

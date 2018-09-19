@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Buscas8Puzzle.dir/src/main.cpp.o CMakeFiles/Buscas8Puzzle.dir/src/largura/marcosHideki_0_largura.cpp.o CMakeFiles/Buscas8Puzzle.dir/src/8puzzle.cpp.o  -o Buscas8Puzzle 
