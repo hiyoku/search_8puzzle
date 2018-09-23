@@ -7,16 +7,18 @@
 #IncludeRegexTransform: 
 
 /home/hideki/CLionProjects/Buscas8Puzzle/src/8puzzle.h
+stdint.h
+-
 
-/home/hideki/CLionProjects/Buscas8Puzzle/src/largura/marcosHideki_0_largura.cpp
+/home/hideki/CLionProjects/Buscas8Puzzle/src/largura/marcosHideki_0_largura.h
+
+/home/hideki/CLionProjects/Buscas8Puzzle/src/main.cpp
 iostream
 -
-marcosHideki_0_largura.h
-/home/hideki/CLionProjects/Buscas8Puzzle/src/largura/marcosHideki_0_largura.h
-../8puzzle.h
-/home/hideki/CLionProjects/Buscas8Puzzle/src/8puzzle.h
-queue
+cstring
 -
-
+8puzzle.h
+/home/hideki/CLionProjects/Buscas8Puzzle/src/8puzzle.h
+largura/marcosHideki_0_largura.h
 /home/hideki/CLionProjects/Buscas8Puzzle/src/largura/marcosHideki_0_largura.h
 

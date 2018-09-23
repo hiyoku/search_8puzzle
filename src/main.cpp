@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 #include "8puzzle.h"
 #include "largura/marcosHideki_0_largura.h"
 
@@ -13,9 +14,17 @@ static void print_matrix(uint8_t matrix[3][3])
 
 int main()
 {
-    std::cout << "Testing..." << std::endl;
+    cout << "Testing..." << endl;
+    srand(unsigned (time(0)));
 
-    run();
+    puzzle_node_t node;
+    uint8_t counter = 0;
+
+    init_first_node(&node);
+
+    print_matrix(node.puzzle);
+    cout << "Node X: " << (int) node.zero_position[X];
+    cout << "  Node Y: " << (int) node.zero_position[Y] << endl;
 
     return 0;
 }

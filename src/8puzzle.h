@@ -3,6 +3,9 @@
 
 #include <stdint.h>
 
+#define     X   0
+#define     Y   1
+
 /* DataStructure Used to create a graph*/
 typedef struct puzzle_node_t
 {
@@ -12,6 +15,7 @@ typedef struct puzzle_node_t
     puzzle_node_t *up;
     puzzle_node_t *down;
     uint8_t puzzle[3][3];
+    uint8_t zero_position[2];
 } puzzle_node_t;
 
 /* ENUM for movement options */
@@ -25,9 +29,12 @@ typedef enum puzzle_movements_t
 } puzzle_movements_t;
 
 /* Movement Functions */
-void swap_up(puzzle_node_t node);
-void swap_down(puzzle_node_t node);
-void swap_left(puzzle_node_t node);
-void swap_right(puzzle_node_t node);
+bool check_solved(puzzle_node_t *node);
+void init_first_node(puzzle_node_t *node);
+void swap_up(puzzle_node_t *node);
+void swap_down(puzzle_node_t *node);
+void swap_left(puzzle_node_t *node);
+void swap_right(puzzle_node_t *node);
+uint8_t find_masterpiece(puzzle_node_t *node);
 
 #endif //BUSCAS8PUZZLE_8PUZZLE_H
