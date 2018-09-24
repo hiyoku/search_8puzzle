@@ -26,5 +26,7 @@ int main()
     cout << "Node X: " << (int) node.zero_position[X];
     cout << "  Node Y: " << (int) node.zero_position[Y] << endl;
 
+    run();
+
     return 0;
 }
