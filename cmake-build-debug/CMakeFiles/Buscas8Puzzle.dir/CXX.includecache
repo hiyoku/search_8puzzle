@@ -35,6 +35,8 @@ queue
 -
 
 C:/Users/hiyok/CLionProjects/search_8puzzle/src/largura/marcosHideki_0_largura.h
+../8puzzle.h
+C:/Users/hiyok/CLionProjects/search_8puzzle/src/8puzzle.h
 
 C:/Users/hiyok/CLionProjects/search_8puzzle/src/main.cpp
 iostream
@@ -47,4 +49,20 @@ time.h
 C:/Users/hiyok/CLionProjects/search_8puzzle/src/8puzzle.h
 largura/marcosHideki_0_largura.h
 C:/Users/hiyok/CLionProjects/search_8puzzle/src/largura/marcosHideki_0_largura.h
+profundidade/marcosHideki_0_profundidade.h
+C:/Users/hiyok/CLionProjects/search_8puzzle/src/profundidade/marcosHideki_0_profundidade.h
+
+C:/Users/hiyok/CLionProjects/search_8puzzle/src/profundidade/marcosHideki_0_profundidade.cpp
+iostream
+-
+string.h
+-
+stack
+-
+marcosHideki_0_profundidade.h
+C:/Users/hiyok/CLionProjects/search_8puzzle/src/profundidade/marcosHideki_0_profundidade.h
+
+C:/Users/hiyok/CLionProjects/search_8puzzle/src/profundidade/marcosHideki_0_profundidade.h
+../8puzzle.h
+C:/Users/hiyok/CLionProjects/search_8puzzle/src/8puzzle.h
 

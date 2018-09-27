@@ -149,6 +149,33 @@ src/8puzzle.cpp.s:
 	$(MAKE) -f CMakeFiles\Buscas8Puzzle.dir\build.make CMakeFiles/Buscas8Puzzle.dir/src/8puzzle.cpp.s
 .PHONY : src/8puzzle.cpp.s
 
+src/heuristicas/marcosHideki_0_heuristicas.obj: src/heuristicas/marcosHideki_0_heuristicas.cpp.obj
+
+.PHONY : src/heuristicas/marcosHideki_0_heuristicas.obj
+
+# target to build an object file
+src/heuristicas/marcosHideki_0_heuristicas.cpp.obj:
+	$(MAKE) -f CMakeFiles\Buscas8Puzzle.dir\build.make CMakeFiles/Buscas8Puzzle.dir/src/heuristicas/marcosHideki_0_heuristicas.cpp.obj
+.PHONY : src/heuristicas/marcosHideki_0_heuristicas.cpp.obj
+
+src/heuristicas/marcosHideki_0_heuristicas.i: src/heuristicas/marcosHideki_0_heuristicas.cpp.i
+
+.PHONY : src/heuristicas/marcosHideki_0_heuristicas.i
+
+# target to preprocess a source file
+src/heuristicas/marcosHideki_0_heuristicas.cpp.i:
+	$(MAKE) -f CMakeFiles\Buscas8Puzzle.dir\build.make CMakeFiles/Buscas8Puzzle.dir/src/heuristicas/marcosHideki_0_heuristicas.cpp.i
+.PHONY : src/heuristicas/marcosHideki_0_heuristicas.cpp.i
+
+src/heuristicas/marcosHideki_0_heuristicas.s: src/heuristicas/marcosHideki_0_heuristicas.cpp.s
+
+.PHONY : src/heuristicas/marcosHideki_0_heuristicas.s
+
+# target to generate assembly for a file
+src/heuristicas/marcosHideki_0_heuristicas.cpp.s:
+	$(MAKE) -f CMakeFiles\Buscas8Puzzle.dir\build.make CMakeFiles/Buscas8Puzzle.dir/src/heuristicas/marcosHideki_0_heuristicas.cpp.s
+.PHONY : src/heuristicas/marcosHideki_0_heuristicas.cpp.s
+
 src/largura/marcosHideki_0_largura.obj: src/largura/marcosHideki_0_largura.cpp.obj
 
 .PHONY : src/largura/marcosHideki_0_largura.obj
@@ -203,6 +230,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles\Buscas8Puzzle.dir\build.make CMakeFiles/Buscas8Puzzle.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/profundidade/marcosHideki_0_profundidade.obj: src/profundidade/marcosHideki_0_profundidade.cpp.obj
+
+.PHONY : src/profundidade/marcosHideki_0_profundidade.obj
+
+# target to build an object file
+src/profundidade/marcosHideki_0_profundidade.cpp.obj:
+	$(MAKE) -f CMakeFiles\Buscas8Puzzle.dir\build.make CMakeFiles/Buscas8Puzzle.dir/src/profundidade/marcosHideki_0_profundidade.cpp.obj
+.PHONY : src/profundidade/marcosHideki_0_profundidade.cpp.obj
+
+src/profundidade/marcosHideki_0_profundidade.i: src/profundidade/marcosHideki_0_profundidade.cpp.i
+
+.PHONY : src/profundidade/marcosHideki_0_profundidade.i
+
+# target to preprocess a source file
+src/profundidade/marcosHideki_0_profundidade.cpp.i:
+	$(MAKE) -f CMakeFiles\Buscas8Puzzle.dir\build.make CMakeFiles/Buscas8Puzzle.dir/src/profundidade/marcosHideki_0_profundidade.cpp.i
+.PHONY : src/profundidade/marcosHideki_0_profundidade.cpp.i
+
+src/profundidade/marcosHideki_0_profundidade.s: src/profundidade/marcosHideki_0_profundidade.cpp.s
+
+.PHONY : src/profundidade/marcosHideki_0_profundidade.s
+
+# target to generate assembly for a file
+src/profundidade/marcosHideki_0_profundidade.cpp.s:
+	$(MAKE) -f CMakeFiles\Buscas8Puzzle.dir\build.make CMakeFiles/Buscas8Puzzle.dir/src/profundidade/marcosHideki_0_profundidade.cpp.s
+.PHONY : src/profundidade/marcosHideki_0_profundidade.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -215,12 +269,18 @@ help:
 	@echo ... src/8puzzle.obj
 	@echo ... src/8puzzle.i
 	@echo ... src/8puzzle.s
+	@echo ... src/heuristicas/marcosHideki_0_heuristicas.obj
+	@echo ... src/heuristicas/marcosHideki_0_heuristicas.i
+	@echo ... src/heuristicas/marcosHideki_0_heuristicas.s
 	@echo ... src/largura/marcosHideki_0_largura.obj
 	@echo ... src/largura/marcosHideki_0_largura.i
 	@echo ... src/largura/marcosHideki_0_largura.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/profundidade/marcosHideki_0_profundidade.obj
+	@echo ... src/profundidade/marcosHideki_0_profundidade.i
+	@echo ... src/profundidade/marcosHideki_0_profundidade.s
 .PHONY : help
 
 

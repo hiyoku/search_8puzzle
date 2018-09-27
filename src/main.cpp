@@ -3,6 +3,7 @@
 #include <time.h>
 #include "8puzzle.h"
 #include "largura/marcosHideki_0_largura.h"
+#include "profundidade/marcosHideki_0_profundidade.h"
 
 using namespace std;
 
@@ -18,7 +19,19 @@ int main()
     cout << "Testing..." << endl;
     srand(unsigned (time(0)));
 
-    run();
+    puzzle_node_t node;
+    init_first_node(&node);
+
+    swap_right(&node);
+    node = *node.right;
+//    swap_down(&node);
+//    node = *node.down;
+//
+//    swap_down(&node);
+//    node = *node.down;
+
+    run_largura(&node);
+    run_profundidade(&node);
 
     return 0;
 }

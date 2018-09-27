@@ -88,6 +88,12 @@
 		<Unit filename="C:/Users/hiyok/CLionProjects/search_8puzzle/src/8puzzle.h">
 			<Option target="Buscas8Puzzle"/>
 		</Unit>
+		<Unit filename="C:/Users/hiyok/CLionProjects/search_8puzzle/src/heuristicas/marcosHideki_0_heuristicas.cpp">
+			<Option target="Buscas8Puzzle"/>
+		</Unit>
+		<Unit filename="C:/Users/hiyok/CLionProjects/search_8puzzle/src/heuristicas/marcosHideki_0_heuristicas.h">
+			<Option target="Buscas8Puzzle"/>
+		</Unit>
 		<Unit filename="C:/Users/hiyok/CLionProjects/search_8puzzle/src/largura/marcosHideki_0_largura.cpp">
 			<Option target="Buscas8Puzzle"/>
 		</Unit>
@@ -95,6 +101,12 @@
 			<Option target="Buscas8Puzzle"/>
 		</Unit>
 		<Unit filename="C:/Users/hiyok/CLionProjects/search_8puzzle/src/main.cpp">
+			<Option target="Buscas8Puzzle"/>
+		</Unit>
+		<Unit filename="C:/Users/hiyok/CLionProjects/search_8puzzle/src/profundidade/marcosHideki_0_profundidade.cpp">
+			<Option target="Buscas8Puzzle"/>
+		</Unit>
+		<Unit filename="C:/Users/hiyok/CLionProjects/search_8puzzle/src/profundidade/marcosHideki_0_profundidade.h">
 			<Option target="Buscas8Puzzle"/>
 		</Unit>
 		<Unit filename="C:/Users/hiyok/CLionProjects/search_8puzzle/CMakeLists.txt">

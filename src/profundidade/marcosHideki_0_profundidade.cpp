@@ -1,8 +1,10 @@
+//
+// Created by hiyok on 9/27/2018.
+//
 #include <iostream>
 #include <string.h>
-#include "marcosHideki_0_largura.h"
-#include "../8puzzle.h"
-#include <queue>
+#include <stack>
+#include "marcosHideki_0_profundidade.h"
 
 #ifdef MOCK
 static void print_matrix(uint8_t matrix[3][3])
@@ -13,14 +15,14 @@ static void print_matrix(uint8_t matrix[3][3])
 }
 #endif
 
-void run_largura(puzzle_node_t *node)
+void run_profundidade(puzzle_node_t *node)
 {
-    std::queue<puzzle_node_t> fila;
+    std::stack<puzzle_node_t> pilha;
 
 #ifdef MOCK
     print_matrix(node->puzzle);
 #endif
-    std::cout << "Started Breadth Search" << std::endl;
+    std::cout << "Started Depth Search" << std::endl;
     uint32_t states = 0;
 
     /* Mocking a test */
@@ -32,11 +34,12 @@ void run_largura(puzzle_node_t *node)
 //    swap_down(&node);
 //    node = *node.down;
 
-    fila.push(*node);
+    pilha.push(*node);
 
-    while (!fila.empty() && states < MAX_STATES)
+    while (!pilha.empty() && states < MAX_STATES)
     {
-        node = &fila.front();
+        node = &pilha.top();
+
         states++;
 
         if (check_solved(node))
@@ -52,25 +55,25 @@ void run_largura(puzzle_node_t *node)
 
         if ((node->up != nullptr) && (node->up != node->father))
         {
-            fila.push(*node->up);
+            pilha.push(*node->up);
         }
 
         if ((node->down != nullptr) && (node->down != node->father))
         {
-            fila.push(*node->down);
+            pilha.push(*node->down);
         }
 
         if ((node->left != nullptr) && (node->left != node->father))
         {
-            fila.push(*node->left);
+            pilha.push(*node->left);
         }
 
         if ((node->right != nullptr) && (node->right != node->father))
         {
-            fila.push(*node->right);
+            pilha.push(*node->right);
         }
 
-        fila.pop();
+        pilha.pop();
     }
 
     std::cout << "states: " << (int) states << std::endl;

@@ -7,6 +7,8 @@
 #define     Y               1
 #define     MAX_STATES      500000
 
+#define     MOCK
+
 /* DataStructure Used to create a graph*/
 typedef struct puzzle_node_t
 {
