@@ -18,15 +18,6 @@ int main()
     cout << "Testing..." << endl;
     srand(unsigned (time(0)));
 
-    puzzle_node_t node;
-    uint8_t counter = 0;
-
-    init_first_node(&node);
-
-    print_matrix(node.puzzle);
-    cout << "Node X: " << (int) node.zero_position[X];
-    cout << "  Node Y: " << (int) node.zero_position[Y] << endl;
-
     run();
 
     return 0;

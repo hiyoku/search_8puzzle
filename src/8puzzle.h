@@ -5,7 +5,7 @@
 
 #define     X               0
 #define     Y               1
-#define     MAX_STATES      100
+#define     MAX_STATES      500000
 
 /* DataStructure Used to create a graph*/
 typedef struct puzzle_node_t

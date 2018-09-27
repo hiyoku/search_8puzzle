@@ -16,28 +16,18 @@ void run(void)
     std::queue<puzzle_node_t> fila;
 
     puzzle_node_t node;
-    puzzle_node_t *aux;
     init_first_node(&node);
     print_matrix(node.puzzle);
-    swap_down(&node);
-
-    if (node.down == nullptr)
-    {
-        std::cout << "NULL??" << std::endl;
-    }
-    aux = node.down;
-    node = *node.down;
-    std::cout << "o" << std::endl;
-    print_matrix(node.puzzle);
-
-    fila.push(node);
-
+    std::cout << "Started Breadth Search" << std::endl;
     uint32_t states = 0;
+
+    /* Mocking a test */
+    
+    fila.push(node);
 
     while (!fila.empty() && states < MAX_STATES)
     {
         node = fila.front();
-        fila.pop();
         states++;
 
         if (check_solved(&node))
@@ -71,6 +61,8 @@ void run(void)
             fila.push(*node.right);
         }
 
-
+        fila.pop();
     }
+
+    std::cout << "states: " << (int) states << std::endl;
 }
