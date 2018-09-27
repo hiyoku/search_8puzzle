@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#include <time.h>
 #include "8puzzle.h"
 #include "largura/marcosHideki_0_largura.h"
 

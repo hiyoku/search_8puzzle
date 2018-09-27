@@ -1,9 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Buscas8Puzzle.dir/src/main.cpp.o"
-  "CMakeFiles/Buscas8Puzzle.dir/src/largura/marcosHideki_0_largura.cpp.o"
-  "CMakeFiles/Buscas8Puzzle.dir/src/8puzzle.cpp.o"
+  "CMakeFiles/Buscas8Puzzle.dir/src/main.cpp.obj"
+  "CMakeFiles/Buscas8Puzzle.dir/src/largura/marcosHideki_0_largura.cpp.obj"
+  "CMakeFiles/Buscas8Puzzle.dir/src/8puzzle.cpp.obj"
   "Buscas8Puzzle.pdb"
-  "Buscas8Puzzle"
+  "Buscas8Puzzle.exe"
+  "Buscas8Puzzle.exe.manifest"
+  "libBuscas8Puzzle.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

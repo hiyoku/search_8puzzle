@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hideki/CLionProjects/Buscas8Puzzle/src/8puzzle.cpp" "/home/hideki/CLionProjects/Buscas8Puzzle/cmake-build-debug/CMakeFiles/Buscas8Puzzle.dir/src/8puzzle.cpp.o"
-  "/home/hideki/CLionProjects/Buscas8Puzzle/src/largura/marcosHideki_0_largura.cpp" "/home/hideki/CLionProjects/Buscas8Puzzle/cmake-build-debug/CMakeFiles/Buscas8Puzzle.dir/src/largura/marcosHideki_0_largura.cpp.o"
-  "/home/hideki/CLionProjects/Buscas8Puzzle/src/main.cpp" "/home/hideki/CLionProjects/Buscas8Puzzle/cmake-build-debug/CMakeFiles/Buscas8Puzzle.dir/src/main.cpp.o"
+  "C:/Users/hiyok/CLionProjects/search_8puzzle/src/8puzzle.cpp" "C:/Users/hiyok/CLionProjects/search_8puzzle/cmake-build-debug/CMakeFiles/Buscas8Puzzle.dir/src/8puzzle.cpp.obj"
+  "C:/Users/hiyok/CLionProjects/search_8puzzle/src/largura/marcosHideki_0_largura.cpp" "C:/Users/hiyok/CLionProjects/search_8puzzle/cmake-build-debug/CMakeFiles/Buscas8Puzzle.dir/src/largura/marcosHideki_0_largura.cpp.obj"
+  "C:/Users/hiyok/CLionProjects/search_8puzzle/src/main.cpp" "C:/Users/hiyok/CLionProjects/search_8puzzle/cmake-build-debug/CMakeFiles/Buscas8Puzzle.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

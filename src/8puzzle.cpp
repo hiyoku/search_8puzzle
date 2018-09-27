@@ -79,7 +79,7 @@ void init_first_node(puzzle_node_t *node)
         values.push_back(i);
     }
 
-    std::random_shuffle(values.begin(), values.end(), random_uint8);
+    //std::random_shuffle(values.begin(), values.end(), random_uint8);
 
     uint8_t index = 0;
 
@@ -136,13 +136,12 @@ void swap_down(puzzle_node_t *node)
     {
         puzzle_node_t temp;
         memcpy(&temp, node, sizeof(puzzle_node_t));
+        memcpy(&temp.father, node, sizeof(puzzle_node_t));
 
         temp.puzzle[y][x] = temp.puzzle[y + 1][x];
         temp.puzzle[y + 1][x] = 0;
         temp.zero_position[X] = x;
         temp.zero_position[Y] = y + 1;
-
-        memcpy(&temp.father, node, sizeof(puzzle_node_t));
 
         node->down = (puzzle_node_t *) malloc(sizeof(puzzle_node_t));
         memcpy(node->down, &temp, sizeof(puzzle_node_t));

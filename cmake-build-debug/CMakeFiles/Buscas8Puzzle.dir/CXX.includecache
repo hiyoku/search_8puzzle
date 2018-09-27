@@ -6,19 +6,45 @@
 
 #IncludeRegexTransform: 
 
-/home/hideki/CLionProjects/Buscas8Puzzle/src/8puzzle.h
+C:/Users/hiyok/CLionProjects/search_8puzzle/src/8puzzle.cpp
+cstring
+-
+malloc.h
+-
+algorithm
+-
+vector
+-
+8puzzle.h
+C:/Users/hiyok/CLionProjects/search_8puzzle/src/8puzzle.h
+
+C:/Users/hiyok/CLionProjects/search_8puzzle/src/8puzzle.h
 stdint.h
 -
 
-/home/hideki/CLionProjects/Buscas8Puzzle/src/largura/marcosHideki_0_largura.cpp
+C:/Users/hiyok/CLionProjects/search_8puzzle/src/largura/marcosHideki_0_largura.cpp
 iostream
 -
+string.h
+-
 marcosHideki_0_largura.h
-/home/hideki/CLionProjects/Buscas8Puzzle/src/largura/marcosHideki_0_largura.h
+C:/Users/hiyok/CLionProjects/search_8puzzle/src/largura/marcosHideki_0_largura.h
 ../8puzzle.h
-/home/hideki/CLionProjects/Buscas8Puzzle/src/8puzzle.h
+C:/Users/hiyok/CLionProjects/search_8puzzle/src/8puzzle.h
 queue
 -
 
-/home/hideki/CLionProjects/Buscas8Puzzle/src/largura/marcosHideki_0_largura.h
+C:/Users/hiyok/CLionProjects/search_8puzzle/src/largura/marcosHideki_0_largura.h
+
+C:/Users/hiyok/CLionProjects/search_8puzzle/src/main.cpp
+iostream
+-
+cstring
+-
+time.h
+-
+8puzzle.h
+C:/Users/hiyok/CLionProjects/search_8puzzle/src/8puzzle.h
+largura/marcosHideki_0_largura.h
+C:/Users/hiyok/CLionProjects/search_8puzzle/src/largura/marcosHideki_0_largura.h
 
