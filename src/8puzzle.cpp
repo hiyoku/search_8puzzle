@@ -79,7 +79,7 @@ void init_first_node(puzzle_node_t *node)
         values.push_back(i);
     }
 
-    //std::random_shuffle(values.begin(), values.end(), random_uint8);
+    std::random_shuffle(values.begin(), values.end(), random_uint8);
 
     uint8_t index = 0;
 

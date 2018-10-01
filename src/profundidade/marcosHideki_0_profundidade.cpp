@@ -6,6 +6,8 @@
 #include <stack>
 #include "marcosHideki_0_profundidade.h"
 
+static bool finished = false;
+
 #ifdef MOCK
 static void print_matrix(uint8_t matrix[3][3])
 {
@@ -17,6 +19,7 @@ static void print_matrix(uint8_t matrix[3][3])
 
 void run_profundidade(puzzle_node_t *node)
 {
+    clock_t begin = clock();
     std::stack<puzzle_node_t> pilha;
 
 #ifdef MOCK
@@ -45,6 +48,15 @@ void run_profundidade(puzzle_node_t *node)
         if (check_solved(node))
         {
             std::cout << "Puzzle Solved!! states: " << (int) states << std::endl;
+            clock_t end = clock();
+
+            double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
+            std::fstream file;
+            file.open("profundidade", std::ios::in | std::ios::app);
+            file << "Solved! - " << elapsed_secs << " - " << states << std::endl;
+            std::cout << "states: " << (int) states << std::endl;
+            file.close();
+            finished = true;
             break;
         }
 
@@ -76,5 +88,15 @@ void run_profundidade(puzzle_node_t *node)
         pilha.pop();
     }
 
-    std::cout << "states: " << (int) states << std::endl;
+    if (!finished)
+    {
+        clock_t end = clock();
+
+        double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
+        std::ofstream file;
+        file.open("profundidade", std::ios::in | std::ios::app);
+        file << "Not Solved! - " << elapsed_secs << " - " << states << std::endl;
+        std::cout << "states: " << (int) states << std::endl;
+        file.close();
+    }
 }

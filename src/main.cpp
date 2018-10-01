@@ -4,6 +4,7 @@
 #include "8puzzle.h"
 #include "largura/marcosHideki_0_largura.h"
 #include "profundidade/marcosHideki_0_profundidade.h"
+#include "heuristicas/marcosHideki_0_heuristicas.h"
 
 using namespace std;
 
@@ -19,19 +20,34 @@ int main()
     cout << "Testing..." << endl;
     srand(unsigned (time(0)));
 
-    puzzle_node_t node;
-    init_first_node(&node);
-
-    swap_right(&node);
-    node = *node.right;
+//    swap_right(&node);
+//    node = *node.right;
 //    swap_down(&node);
 //    node = *node.down;
 //
 //    swap_down(&node);
 //    node = *node.down;
 
-    run_largura(&node);
-    run_profundidade(&node);
+//    cout << "Heuristica 1: " << (int) heuristica_01(&node) << endl;
+//    cout << "Heuristica 2: " << (int) heuristica_02(&node) << endl;
+//    cout << "Heuristica 3: " << heuristica_03(&node) << endl;
 
+    uint16_t counter = 1;
+    while (counter <= 200)
+    {
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
+        cout << "Running solver n: " << counter << "..." << endl;
+        puzzle_node_t node;
+        init_first_node(&node);
+
+        run_largura(&node);
+        run_profundidade(&node);
+        run_heuristicas(&node, H1);
+        run_heuristicas(&node, H2);
+        run_heuristicas(&node, H3);
+
+        counter++;
+    }
     return 0;
 }

@@ -4,6 +4,8 @@
 #include "../8puzzle.h"
 #include <queue>
 
+static bool finished = false;
+
 #ifdef MOCK
 static void print_matrix(uint8_t matrix[3][3])
 {
@@ -33,6 +35,7 @@ void run_largura(puzzle_node_t *node)
 //    node = *node.down;
 
     fila.push(*node);
+    clock_t begin = clock();
 
     while (!fila.empty() && states < MAX_STATES)
     {
@@ -42,6 +45,15 @@ void run_largura(puzzle_node_t *node)
         if (check_solved(node))
         {
             std::cout << "Puzzle Solved!! states: " << (int) states << std::endl;
+            clock_t end = clock();
+
+            double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
+            std::fstream file;
+            file.open("largura", std::ios::in | std::ios::app);
+            file << "Solved! - " << elapsed_secs << " - " << states << std::endl;
+            std::cout << "states: " << (int) states << std::endl;
+            file.close();
+            finished = true;
             break;
         }
 
@@ -73,5 +85,15 @@ void run_largura(puzzle_node_t *node)
         fila.pop();
     }
 
-    std::cout << "states: " << (int) states << std::endl;
+    if (!finished)
+    {
+        clock_t end = clock();
+
+        double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
+        std::fstream file;
+        file.open("largura", std::ios::in | std::ios::app);
+        file << "Not Solved! - " << elapsed_secs << " - " << states << std::endl;
+        std::cout << "states: " << (int) states << std::endl;
+        file.close();
+    }
 }
