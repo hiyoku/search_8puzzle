@@ -12,9 +12,9 @@ static uint16_t position[2][9] = {
         {0, 1, 2, 0, 1, 2, 0, 1, 2}
 };
 
-bool compareByH(const puzzle_node_t &a, const puzzle_node_t &b)
+bool compareByH(const puzzle_node_t *a, const puzzle_node_t *b)
 {
-    return a.value_h < b.value_h;
+    return a->value_h < b->value_h;
 }
 
 uint8_t heuristica_01(puzzle_node_t *node)
@@ -138,27 +138,11 @@ void set_heuristicas(puzzle_node_t *node, enum Heuristicas_t h_)
     }
 }
 
-void sort_queue(std::queue<puzzle_node_t> *queue)
-{
-    std::vector<puzzle_node_t> v;
-    while (!queue->empty())
-    {
-        v.push_back(queue->front());
-        queue->pop();
-    }
 
-    std::sort(v.begin(), v.end(), compareByH);
-
-    for (int i = 0; i < v.size(); ++i)
-    {
-        queue->push(v[i]);
-    }
-}
-
-void run_heuristicas(puzzle_node_t *node, enum Heuristicas_t f_de_h)
+void run_heuristicas(puzzle_node_t node_main, enum Heuristicas_t f_de_h)
 {
     clock_t begin = clock();
-    std::queue<puzzle_node_t> array_states;
+    std::vector<puzzle_node_t *> all_states;
 
 #ifdef MOCK
     //print_matrix(node->puzzle);
@@ -175,14 +159,19 @@ void run_heuristicas(puzzle_node_t *node, enum Heuristicas_t f_de_h)
 //    swap_down(&node);
 //    node = *node.down;
 
-    array_states.push(*node);
+    auto *node = new puzzle_node_t;
+    memcpy(node, &node_main, sizeof(puzzle_node_t));
+
+    all_states.push_back(node);
+
     set_heuristicas(node, f_de_h);
     double elapsed_secs;
 
-    while (!array_states.empty() && states < MAX_STATES_H)
+    while (!all_states.empty() && states < MAX_STATES_H)
     {
-        node = &array_states.front();
+        node = all_states.front();
         states++;
+
         if (check_solved(node))
         {
             std::cout << "Puzzle Solved!! states: " << (int) states << std::endl;
@@ -206,28 +195,28 @@ void run_heuristicas(puzzle_node_t *node, enum Heuristicas_t f_de_h)
         if ((node->up != nullptr) && (node->up != node->father))
         {
             set_heuristicas(node->up, f_de_h);
-            array_states.push(*node->up);
+            all_states.push_back(node->up);
         }
 
         if ((node->down != nullptr) && (node->down != node->father))
         {
             set_heuristicas(node->down, f_de_h);
-            array_states.push(*node->down);
+            all_states.push_back(node->down);
         }
 
         if ((node->left != nullptr) && (node->left != node->father))
         {
             set_heuristicas(node->left, f_de_h);
-            array_states.push(*node->left);
+            all_states.push_back(node->left);
         }
 
         if ((node->right != nullptr) && (node->right != node->father))
         {
             set_heuristicas(node->right, f_de_h);
-            array_states.push(*node->right);
+            all_states.push_back(node->right);
         }
 
-        sort_queue(&array_states);
+        std::sort(all_states.begin(), all_states.end(), compareByH);
 
     }
     if (!finished)
@@ -240,6 +229,11 @@ void run_heuristicas(puzzle_node_t *node, enum Heuristicas_t f_de_h)
         file << "Not Solved - " << elapsed_secs << " - " << states << std::endl;
         std::cout << "states: " << (int) states << std::endl;
         file.close();
+    }
+
+    std::cout << "Dealloc" << std::endl;
+    for (int i = 0; i < all_states.size(); ++i) {
+        free(all_states[i]);
     }
 
     std::cout << "Seconds used: " << elapsed_secs << std::endl;

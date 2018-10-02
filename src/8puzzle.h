@@ -1,13 +1,13 @@
 #ifndef BUSCAS8PUZZLE_8PUZZLE_H
 #define BUSCAS8PUZZLE_8PUZZLE_H
 
-#include <stdint.h>
+#include <cstdint>
 #include <ctime>
 #include <fstream>
 
 #define     X               0
 #define     Y               1
-#define     MAX_STATES      500000
+#define     MAX_STATES      3000000
 #define     MAX_STATES_H    10000
 
 //#define     MOCK

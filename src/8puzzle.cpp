@@ -106,17 +106,16 @@ void swap_up(puzzle_node_t *node) {
     }
     else
     {
-        puzzle_node_t temp;
-        memcpy(&temp, node, sizeof(puzzle_node_t));
-        temp.father = node;
+        auto *temp = new puzzle_node_t;
+        memcpy(temp, node, sizeof(puzzle_node_t));
+        temp->father = node;
 
-        temp.puzzle[y][x] = temp.puzzle[y - 1][x];
-        temp.puzzle[y - 1][x] = 0;
-        temp.zero_position[X] = x;
-        temp.zero_position[Y] = y - 1;
+        temp->puzzle[y][x] = temp->puzzle[y - 1][x];
+        temp->puzzle[y - 1][x] = 0;
+        temp->zero_position[X] = x;
+        temp->zero_position[Y] = y - 1;
 
-        node->up = (puzzle_node_t *) malloc(sizeof(puzzle_node_t));
-        memcpy(node->up, &temp, sizeof(puzzle_node_t));
+        node->up = temp;
     }
 }
 
@@ -133,17 +132,16 @@ void swap_down(puzzle_node_t *node)
     }
     else
     {
-        puzzle_node_t temp;
-        memcpy(&temp, node, sizeof(puzzle_node_t));
-        temp.father = node;
+        auto *temp = new puzzle_node_t;
+        memcpy(temp, node, sizeof(puzzle_node_t));
+        temp->father = node;
 
-        temp.puzzle[y][x] = temp.puzzle[y + 1][x];
-        temp.puzzle[y + 1][x] = 0;
-        temp.zero_position[X] = x;
-        temp.zero_position[Y] = y + 1;
+        temp->puzzle[y][x] = temp->puzzle[y + 1][x];
+        temp->puzzle[y + 1][x] = 0;
+        temp->zero_position[X] = x;
+        temp->zero_position[Y] = y + 1;
 
-        node->down = (puzzle_node_t *) malloc(sizeof(puzzle_node_t));
-        memcpy(node->down, &temp, sizeof(puzzle_node_t));
+        node->down = temp;
     }
 }
 
@@ -160,17 +158,16 @@ void swap_left(puzzle_node_t *node)
     }
     else
     {
-        puzzle_node_t temp;
-        memcpy(&temp, node, sizeof(puzzle_node_t));
-        temp.father = node;
+        auto *temp = new puzzle_node_t;
+        memcpy(temp, node, sizeof(puzzle_node_t));
+        temp->father = node;
 
-        temp.puzzle[y][x] = temp.puzzle[y][x - 1];
-        temp.puzzle[y][x - 1] = 0;
-        temp.zero_position[X] = x - 1;
-        temp.zero_position[Y] = y;
+        temp->puzzle[y][x] = temp->puzzle[y][x - 1];
+        temp->puzzle[y][x - 1] = 0;
+        temp->zero_position[X] = x - 1;
+        temp->zero_position[Y] = y;
 
-        node->left = (puzzle_node_t *) malloc(sizeof(puzzle_node_t));
-        memcpy(node->left, &temp, sizeof(puzzle_node_t));
+        node->left = temp;
     }
 }
 
@@ -187,16 +184,15 @@ void swap_right(puzzle_node_t *node)
     }
     else
     {
-        puzzle_node_t temp;
-        memcpy(&temp, node, sizeof(puzzle_node_t));
-        temp.father = node;
+        auto *temp = new puzzle_node_t;
+        memcpy(temp, node, sizeof(puzzle_node_t));
+        temp->father = node;
 
-        temp.puzzle[y][x] = temp.puzzle[y][x + 1];
-        temp.puzzle[y][x + 1] = 0;
-        temp.zero_position[X] = x + 1;
-        temp.zero_position[Y] = y;
+        temp->puzzle[y][x] = temp->puzzle[y][x + 1];
+        temp->puzzle[y][x + 1] = 0;
+        temp->zero_position[X] = x + 1;
+        temp->zero_position[Y] = y;
 
-        node->right = (puzzle_node_t *) malloc(sizeof(puzzle_node_t));
-        memcpy(node->right, &temp, sizeof(puzzle_node_t));
+        node->right = temp;
     }
 }

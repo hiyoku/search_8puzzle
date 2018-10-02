@@ -1,5 +1,5 @@
 #ifndef BUSCAS8PUZZLE_MARCOSHIDEKI_0_PROFUNDIDADE_H
 #define BUSCAS8PUZZLE_MARCOSHIDEKI_0_PROFUNDIDADE_H
 #include "../8puzzle.h"
-void run_profundidade(puzzle_node_t *node);
+void run_profundidade(puzzle_node_t node);
 #endif //BUSCAS8PUZZLE_MARCOSHIDEKI_0_PROFUNDIDADE_H

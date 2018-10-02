@@ -3,5 +3,5 @@
 
 #include "../8puzzle.h"
 
-void run_largura(puzzle_node_t *node);
+void run_largura(puzzle_node_t node);
 #endif //BUSCAS8PUZZLE_MARCOSHIDEKI_0_LARGURA_H

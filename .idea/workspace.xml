@@ -13,16 +13,15 @@
   <component name="ChangeListManager">
     <list default="true" id="aa6cceac-f416-44e8-8859-f2d253bd6d6b" name="Default Changelist" comment="aee rodo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Buscas8Puzzle.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Buscas8Puzzle.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Buscas8Puzzle.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Buscas8Puzzle.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Buscas8Puzzle.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Buscas8Puzzle.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/8puzzle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/8puzzle.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/8puzzle.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/8puzzle.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/heuristicas/marcosHideki_0_heuristicas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/heuristicas/marcosHideki_0_heuristicas.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/heuristicas/marcosHideki_0_heuristicas.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/heuristicas/marcosHideki_0_heuristicas.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/largura/marcosHideki_0_largura.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/largura/marcosHideki_0_largura.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/largura/marcosHideki_0_largura.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/largura/marcosHideki_0_largura.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/profundidade/marcosHideki_0_profundidade.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/profundidade/marcosHideki_0_profundidade.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profundidade/marcosHideki_0_profundidade.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/profundidade/marcosHideki_0_profundidade.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,11 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="348">
+              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="45" selection-end-column="27" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -90,37 +89,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profundidade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/profundidade">
+      <file leaf-file-name="stl_algo.h" pinned="false" current-in-tab="false">
+        <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algo.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-428">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="203">
+              <caret line="3738" column="37" selection-start-line="3738" selection-start-column="37" selection-end-line="3738" selection-end-column="37" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="largura" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/largura">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-513" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Heuristica 2" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/Heuristica 2">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408" />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="marcosHideki_0_heuristicas.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/heuristicas/marcosHideki_0_heuristicas.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="237" column="26" lean-forward="true" selection-start-line="237" selection-start-column="26" selection-end-line="237" selection-end-column="26" />
+            <state relative-caret-position="467">
+              <caret line="238" column="37" selection-start-line="238" selection-start-column="37" selection-end-line="238" selection-end-column="37" />
               <folding>
                 <element signature="e#1#19#0" expanded="true" />
-                <element signature="e#3747#3776#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,8 +113,8 @@
       <file leaf-file-name="marcosHideki_0_largura.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/largura/marcosHideki_0_largura.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="433">
+              <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#161#535#0" expanded="true" />
@@ -143,11 +127,8 @@
       <file leaf-file-name="8puzzle.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/8puzzle.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding>
-                <element signature="e#65#84#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -155,8 +136,8 @@
       <file leaf-file-name="8puzzle.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/8puzzle.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+            <state relative-caret-position="280">
+              <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -167,8 +148,8 @@
       <file leaf-file-name="marcosHideki_0_profundidade.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/profundidade/marcosHideki_0_profundidade.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1645">
-              <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+            <state relative-caret-position="433">
+              <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
               </folding>
@@ -196,12 +177,12 @@
         <option value="$PROJECT_DIR$/src/largura/marcosHideki_0_largura.h" />
         <option value="$PROJECT_DIR$/src/profundidade/marcosHideki_0_profundidade.h" />
         <option value="$PROJECT_DIR$/src/heuristicas/marcosHideki_0_heuristicas.h" />
-        <option value="$PROJECT_DIR$/src/profundidade/marcosHideki_0_profundidade.cpp" />
-        <option value="$PROJECT_DIR$/src/8puzzle.cpp" />
         <option value="$PROJECT_DIR$/src/largura/marcosHideki_0_largura.cpp" />
-        <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/profundidade/marcosHideki_0_profundidade.cpp" />
         <option value="$PROJECT_DIR$/src/8puzzle.h" />
         <option value="$PROJECT_DIR$/src/heuristicas/marcosHideki_0_heuristicas.cpp" />
+        <option value="$PROJECT_DIR$/src/8puzzle.cpp" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
       </list>
     </option>
   </component>
@@ -213,7 +194,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="982" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -265,8 +246,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/hiyok/CLionProjects/search_8puzzle/src/profundidade/marcosHideki_0_profundidade.cpp" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="pyconsole" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -311,7 +293,8 @@
       <workItem from="1538053338553" duration="2276000" />
       <workItem from="1538045049261" duration="790000" />
       <workItem from="1538045918787" duration="1764000" />
-      <workItem from="1538310565401" duration="18822000" />
+      <workItem from="1538310565401" duration="20078000" />
+      <workItem from="1538438111265" duration="5940000" />
     </task>
     <task id="LOCAL-00001" summary="Doing basic structures and functions">
       <created>1537725319809</created>
@@ -341,11 +324,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538047079371</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="aee rodo">
+      <created>1538390736988</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1538390736988</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41112000" />
+    <option name="totallyTimeSpent" value="48308000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,17 +350,17 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17395833" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17395833" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32934782" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49635416" weight="0.32624868" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.47760418" weight="0.32624868" />
       <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.4989059" weight="0.32939914" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5046875" side_tool="true" visible="true" weight="0.32624868" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51666665" side_tool="true" visible="true" weight="0.32624868" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4953125" visible="true" weight="0.32624868" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48333332" visible="true" weight="0.32624868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32934782" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985122" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49114582" weight="0.3985122" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -396,15 +386,76 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="array_states" />
+        <watch expression="array_states" />
+        <watch expression="all_states[39]" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/heuristicas/marcosHideki_0_heuristicas.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4029">
+          <caret line="237" column="26" lean-forward="true" selection-start-line="237" selection-start-column="26" selection-end-line="237" selection-end-column="26" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/largura/marcosHideki_0_largura.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#161#535#0" expanded="true" />
+            <element signature="e#637#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/8puzzle.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/8puzzle.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/profundidade/marcosHideki_0_profundidade.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -421,7 +472,6 @@
           <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
-            <element signature="e#3747#3776#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -439,6 +489,8 @@
           <caret line="26" selection-start-line="26" selection-end-line="32" selection-end-column="24" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#161#535#0" expanded="true" />
+            <element signature="e#637#664#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -471,9 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="e#65#84#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -520,6 +569,8 @@
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#161#535#0" expanded="true" />
+            <element signature="e#637#664#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -557,6 +608,8 @@
           <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#161#535#0" expanded="true" />
+            <element signature="e#637#664#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -594,6 +647,8 @@
           <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#161#535#0" expanded="true" />
+            <element signature="e#637#664#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -613,102 +668,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/largura/marcosHideki_0_largura.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/profundidade/marcosHideki_0_profundidade.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/heuristicas/marcosHideki_0_heuristicas.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="927" selection-start-line="927" selection-end-line="927" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Heuristica 1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/profundidade/marcosHideki_0_profundidade.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1645">
-          <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/8puzzle.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/8puzzle.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#65#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/largura/marcosHideki_0_largura.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#161#535#0" expanded="true" />
-            <element signature="e#637#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/heuristicas/marcosHideki_0_heuristicas.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="237" column="26" lean-forward="true" selection-start-line="237" selection-start-column="26" selection-end-line="237" selection-end-column="26" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-            <element signature="e#3747#3776#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/Heuristica 0">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-207" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Heuristica 2">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="660">
+          <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -719,14 +687,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/largura">
+    <entry file="file://$PROJECT_DIR$/src/profundidade/marcosHideki_0_profundidade.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-513" />
+        <state relative-caret-position="51">
+          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Heuristica 2">
+    <entry file="file://$PROJECT_DIR$/src/largura/marcosHideki_0_largura.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408" />
+        <state relative-caret-position="85">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/heuristicas/marcosHideki_0_heuristicas.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_queue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="267" column="6" selection-start-line="267" selection-start-column="6" selection-end-line="267" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/largura">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="407" lean-forward="true" selection-start-line="407" selection-end-line="407" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="122" column="17" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="780" selection-start-line="780" selection-end-line="780" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/thread">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-332">
+          <caret selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/largura/marcosHideki_0_largura.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#161#535#0" expanded="true" />
+            <element signature="e#637#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/profundidade/marcosHideki_0_profundidade.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/8puzzle.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/heuristicas/marcosHideki_0_heuristicas.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="238" column="37" selection-start-line="238" selection-start-column="37" selection-end-line="238" selection-end-column="37" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="3738" column="37" selection-start-line="3738" selection-start-column="37" selection-end-line="3738" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/8puzzle.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="45" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

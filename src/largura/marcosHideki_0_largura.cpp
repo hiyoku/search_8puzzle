@@ -1,10 +1,11 @@
 #include <iostream>
-#include <string.h>
+#include <cstring>
 #include "marcosHideki_0_largura.h"
 #include "../8puzzle.h"
 #include <queue>
 
 static bool finished = false;
+
 
 #ifdef MOCK
 static void print_matrix(uint8_t matrix[3][3])
@@ -15,7 +16,7 @@ static void print_matrix(uint8_t matrix[3][3])
 }
 #endif
 
-void run_largura(puzzle_node_t *node)
+void run_largura(puzzle_node_t node_main)
 {
     std::queue<puzzle_node_t> fila;
 
@@ -34,6 +35,13 @@ void run_largura(puzzle_node_t *node)
 //    swap_down(&node);
 //    node = *node.down;
 
+    std::vector<puzzle_node_t *> all_states;
+
+    auto *node = new puzzle_node_t;
+    memcpy(node, &node_main, sizeof(puzzle_node_t));
+
+    all_states.push_back(node);
+
     fila.push(*node);
     clock_t begin = clock();
 
@@ -41,6 +49,7 @@ void run_largura(puzzle_node_t *node)
     {
         node = &fila.front();
         states++;
+
 
         if (check_solved(node))
         {
@@ -65,21 +74,25 @@ void run_largura(puzzle_node_t *node)
         if ((node->up != nullptr) && (node->up != node->father))
         {
             fila.push(*node->up);
+            all_states.push_back(node->up);
         }
 
         if ((node->down != nullptr) && (node->down != node->father))
         {
             fila.push(*node->down);
+            all_states.push_back(node->down);
         }
 
         if ((node->left != nullptr) && (node->left != node->father))
         {
             fila.push(*node->left);
+            all_states.push_back(node->left);
         }
 
         if ((node->right != nullptr) && (node->right != node->father))
         {
             fila.push(*node->right);
+            all_states.push_back(node->right);
         }
 
         fila.pop();
@@ -95,5 +108,10 @@ void run_largura(puzzle_node_t *node)
         file << "Not Solved! - " << elapsed_secs << " - " << states << std::endl;
         std::cout << "states: " << (int) states << std::endl;
         file.close();
+    }
+
+    std::cout << "Dealloc" << std::endl;
+    for (int i = 0; i < all_states.size(); ++i) {
+        free(all_states[i]);
     }
 }
