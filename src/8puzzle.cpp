@@ -65,6 +65,36 @@ bool check_solved(puzzle_node_t *node)
     return true;
 }
 
+bool puzzle_is_same(puzzle_node_t *n1, puzzle_node_t *n2)
+{
+    for (uint8_t y = 0; y < 3; y++)
+    {
+        for (uint8_t x = 0; x < 3; x++)
+        {
+            if (n1->puzzle[y][x] != n2->puzzle[y][x])
+            {
+                return false;
+            }
+        }
+    }
+
+    return true;
+}
+
+bool check_states_visited(std::vector<puzzle_node_t*> *arr, puzzle_node_t *node)
+{
+    std::vector<puzzle_node_t *>::iterator it;
+    for (it = arr->begin(); it != arr->end(); ++it)
+    {
+        if(puzzle_is_same(node, (*it)))
+        {
+            return true;
+        }
+    }
+
+    return false;
+}
+
 void init_first_node(puzzle_node_t *node)
 {
     /* Function to start a 8 pieces puzzle */

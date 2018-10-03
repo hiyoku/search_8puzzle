@@ -149,6 +149,7 @@ void run_heuristicas(puzzle_node_t node_main, enum Heuristicas_t f_de_h)
 #endif
     std::cout << "Started Heuristics Search " << f_de_h + 1 << std::endl;
     uint32_t states = 0;
+    uint8_t counter_node = 0;
 
     /* Mocking a test */
 //    swap_right(&node);
@@ -169,7 +170,14 @@ void run_heuristicas(puzzle_node_t node_main, enum Heuristicas_t f_de_h)
 
     while (!all_states.empty() && states < MAX_STATES_H)
     {
-        node = all_states.front();
+        if(counter_node == 0)
+        {
+            node = all_states.front();
+        }
+        else
+        {
+            node = all_states[1];
+        }
         states++;
 
         if (check_solved(node))
@@ -192,31 +200,36 @@ void run_heuristicas(puzzle_node_t node_main, enum Heuristicas_t f_de_h)
         swap_left(node);
         swap_right(node);
 
-        if ((node->up != nullptr) && (node->up != node->father))
+        if ((node->up != nullptr) && !check_states_visited(&all_states, node->up))
         {
             set_heuristicas(node->up, f_de_h);
             all_states.push_back(node->up);
         }
 
-        if ((node->down != nullptr) && (node->down != node->father))
+        if ((node->down != nullptr) && !check_states_visited(&all_states, node->down))
         {
             set_heuristicas(node->down, f_de_h);
             all_states.push_back(node->down);
         }
 
-        if ((node->left != nullptr) && (node->left != node->father))
+        if ((node->left != nullptr) && !check_states_visited(&all_states, node->left))
         {
             set_heuristicas(node->left, f_de_h);
             all_states.push_back(node->left);
         }
 
-        if ((node->right != nullptr) && (node->right != node->father))
+        if ((node->right != nullptr) && !check_states_visited(&all_states, node->right))
         {
             set_heuristicas(node->right, f_de_h);
             all_states.push_back(node->right);
         }
 
         std::sort(all_states.begin(), all_states.end(), compareByH);
+
+        if (all_states.front() == node)
+        {
+            counter_node = 1;
+        }
 
     }
     if (!finished)
@@ -236,5 +249,5 @@ void run_heuristicas(puzzle_node_t node_main, enum Heuristicas_t f_de_h)
         free(all_states[i]);
     }
 
-    std::cout << "Seconds used: " << elapsed_secs << std::endl;
+    std::cout << "[Finished H" << std::to_string(f_de_h) << "] - Seconds used: " << elapsed_secs << std::endl;
 }

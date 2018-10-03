@@ -19,11 +19,13 @@ vector
 C:/Users/hiyok/CLionProjects/search_8puzzle/src/8puzzle.h
 
 C:/Users/hiyok/CLionProjects/search_8puzzle/src/8puzzle.h
-stdint.h
+cstdint
 -
 ctime
 -
 fstream
+-
+vector
 -
 
 C:/Users/hiyok/CLionProjects/search_8puzzle/src/heuristicas/marcosHideki_0_heuristicas.cpp
@@ -47,7 +49,7 @@ C:/Users/hiyok/CLionProjects/search_8puzzle/src/8puzzle.h
 C:/Users/hiyok/CLionProjects/search_8puzzle/src/largura/marcosHideki_0_largura.cpp
 iostream
 -
-string.h
+cstring
 -
 marcosHideki_0_largura.h
 C:/Users/hiyok/CLionProjects/search_8puzzle/src/largura/marcosHideki_0_largura.h
@@ -65,7 +67,11 @@ iostream
 -
 cstring
 -
-time.h
+ctime
+-
+thread
+-
+vector
 -
 8puzzle.h
 C:/Users/hiyok/CLionProjects/search_8puzzle/src/8puzzle.h
@@ -79,7 +85,7 @@ C:/Users/hiyok/CLionProjects/search_8puzzle/src/heuristicas/marcosHideki_0_heuri
 C:/Users/hiyok/CLionProjects/search_8puzzle/src/profundidade/marcosHideki_0_profundidade.cpp
 iostream
 -
-string.h
+cstring
 -
 stack
 -

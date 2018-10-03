@@ -59,15 +59,15 @@ include CMakeFiles/Buscas8Puzzle.dir/flags.make
 CMakeFiles/Buscas8Puzzle.dir/src/main.cpp.obj: CMakeFiles/Buscas8Puzzle.dir/flags.make
 CMakeFiles/Buscas8Puzzle.dir/src/main.cpp.obj: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hiyok\CLionProjects\search_8puzzle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Buscas8Puzzle.dir/src/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Buscas8Puzzle.dir\src\main.cpp.obj -c C:\Users\hiyok\CLionProjects\search_8puzzle\src\main.cpp
+	A:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Buscas8Puzzle.dir\src\main.cpp.obj -c C:\Users\hiyok\CLionProjects\search_8puzzle\src\main.cpp
 
 CMakeFiles/Buscas8Puzzle.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Buscas8Puzzle.dir/src/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hiyok\CLionProjects\search_8puzzle\src\main.cpp > CMakeFiles\Buscas8Puzzle.dir\src\main.cpp.i
+	A:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hiyok\CLionProjects\search_8puzzle\src\main.cpp > CMakeFiles\Buscas8Puzzle.dir\src\main.cpp.i
 
 CMakeFiles/Buscas8Puzzle.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Buscas8Puzzle.dir/src/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hiyok\CLionProjects\search_8puzzle\src\main.cpp -o CMakeFiles\Buscas8Puzzle.dir\src\main.cpp.s
+	A:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hiyok\CLionProjects\search_8puzzle\src\main.cpp -o CMakeFiles\Buscas8Puzzle.dir\src\main.cpp.s
 
 CMakeFiles/Buscas8Puzzle.dir/src/main.cpp.obj.requires:
 
@@ -83,15 +83,15 @@ CMakeFiles/Buscas8Puzzle.dir/src/main.cpp.obj.provides.build: CMakeFiles/Buscas8
 CMakeFiles/Buscas8Puzzle.dir/src/largura/marcosHideki_0_largura.cpp.obj: CMakeFiles/Buscas8Puzzle.dir/flags.make
 CMakeFiles/Buscas8Puzzle.dir/src/largura/marcosHideki_0_largura.cpp.obj: ../src/largura/marcosHideki_0_largura.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hiyok\CLionProjects\search_8puzzle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Buscas8Puzzle.dir/src/largura/marcosHideki_0_largura.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Buscas8Puzzle.dir\src\largura\marcosHideki_0_largura.cpp.obj -c C:\Users\hiyok\CLionProjects\search_8puzzle\src\largura\marcosHideki_0_largura.cpp
+	A:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Buscas8Puzzle.dir\src\largura\marcosHideki_0_largura.cpp.obj -c C:\Users\hiyok\CLionProjects\search_8puzzle\src\largura\marcosHideki_0_largura.cpp
 
 CMakeFiles/Buscas8Puzzle.dir/src/largura/marcosHideki_0_largura.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Buscas8Puzzle.dir/src/largura/marcosHideki_0_largura.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hiyok\CLionProjects\search_8puzzle\src\largura\marcosHideki_0_largura.cpp > CMakeFiles\Buscas8Puzzle.dir\src\largura\marcosHideki_0_largura.cpp.i
+	A:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hiyok\CLionProjects\search_8puzzle\src\largura\marcosHideki_0_largura.cpp > CMakeFiles\Buscas8Puzzle.dir\src\largura\marcosHideki_0_largura.cpp.i
 
 CMakeFiles/Buscas8Puzzle.dir/src/largura/marcosHideki_0_largura.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Buscas8Puzzle.dir/src/largura/marcosHideki_0_largura.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hiyok\CLionProjects\search_8puzzle\src\largura\marcosHideki_0_largura.cpp -o CMakeFiles\Buscas8Puzzle.dir\src\largura\marcosHideki_0_largura.cpp.s
+	A:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hiyok\CLionProjects\search_8puzzle\src\largura\marcosHideki_0_largura.cpp -o CMakeFiles\Buscas8Puzzle.dir\src\largura\marcosHideki_0_largura.cpp.s
 
 CMakeFiles/Buscas8Puzzle.dir/src/largura/marcosHideki_0_largura.cpp.obj.requires:
 
@@ -107,15 +107,15 @@ CMakeFiles/Buscas8Puzzle.dir/src/largura/marcosHideki_0_largura.cpp.obj.provides
 CMakeFiles/Buscas8Puzzle.dir/src/8puzzle.cpp.obj: CMakeFiles/Buscas8Puzzle.dir/flags.make
 CMakeFiles/Buscas8Puzzle.dir/src/8puzzle.cpp.obj: ../src/8puzzle.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hiyok\CLionProjects\search_8puzzle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Buscas8Puzzle.dir/src/8puzzle.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Buscas8Puzzle.dir\src\8puzzle.cpp.obj -c C:\Users\hiyok\CLionProjects\search_8puzzle\src\8puzzle.cpp
+	A:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Buscas8Puzzle.dir\src\8puzzle.cpp.obj -c C:\Users\hiyok\CLionProjects\search_8puzzle\src\8puzzle.cpp
 
 CMakeFiles/Buscas8Puzzle.dir/src/8puzzle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Buscas8Puzzle.dir/src/8puzzle.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hiyok\CLionProjects\search_8puzzle\src\8puzzle.cpp > CMakeFiles\Buscas8Puzzle.dir\src\8puzzle.cpp.i
+	A:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hiyok\CLionProjects\search_8puzzle\src\8puzzle.cpp > CMakeFiles\Buscas8Puzzle.dir\src\8puzzle.cpp.i
 
 CMakeFiles/Buscas8Puzzle.dir/src/8puzzle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Buscas8Puzzle.dir/src/8puzzle.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hiyok\CLionProjects\search_8puzzle\src\8puzzle.cpp -o CMakeFiles\Buscas8Puzzle.dir\src\8puzzle.cpp.s
+	A:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hiyok\CLionProjects\search_8puzzle\src\8puzzle.cpp -o CMakeFiles\Buscas8Puzzle.dir\src\8puzzle.cpp.s
 
 CMakeFiles/Buscas8Puzzle.dir/src/8puzzle.cpp.obj.requires:
 
@@ -131,15 +131,15 @@ CMakeFiles/Buscas8Puzzle.dir/src/8puzzle.cpp.obj.provides.build: CMakeFiles/Busc
 CMakeFiles/Buscas8Puzzle.dir/src/profundidade/marcosHideki_0_profundidade.cpp.obj: CMakeFiles/Buscas8Puzzle.dir/flags.make
 CMakeFiles/Buscas8Puzzle.dir/src/profundidade/marcosHideki_0_profundidade.cpp.obj: ../src/profundidade/marcosHideki_0_profundidade.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hiyok\CLionProjects\search_8puzzle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Buscas8Puzzle.dir/src/profundidade/marcosHideki_0_profundidade.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Buscas8Puzzle.dir\src\profundidade\marcosHideki_0_profundidade.cpp.obj -c C:\Users\hiyok\CLionProjects\search_8puzzle\src\profundidade\marcosHideki_0_profundidade.cpp
+	A:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Buscas8Puzzle.dir\src\profundidade\marcosHideki_0_profundidade.cpp.obj -c C:\Users\hiyok\CLionProjects\search_8puzzle\src\profundidade\marcosHideki_0_profundidade.cpp
 
 CMakeFiles/Buscas8Puzzle.dir/src/profundidade/marcosHideki_0_profundidade.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Buscas8Puzzle.dir/src/profundidade/marcosHideki_0_profundidade.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hiyok\CLionProjects\search_8puzzle\src\profundidade\marcosHideki_0_profundidade.cpp > CMakeFiles\Buscas8Puzzle.dir\src\profundidade\marcosHideki_0_profundidade.cpp.i
+	A:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hiyok\CLionProjects\search_8puzzle\src\profundidade\marcosHideki_0_profundidade.cpp > CMakeFiles\Buscas8Puzzle.dir\src\profundidade\marcosHideki_0_profundidade.cpp.i
 
 CMakeFiles/Buscas8Puzzle.dir/src/profundidade/marcosHideki_0_profundidade.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Buscas8Puzzle.dir/src/profundidade/marcosHideki_0_profundidade.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hiyok\CLionProjects\search_8puzzle\src\profundidade\marcosHideki_0_profundidade.cpp -o CMakeFiles\Buscas8Puzzle.dir\src\profundidade\marcosHideki_0_profundidade.cpp.s
+	A:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hiyok\CLionProjects\search_8puzzle\src\profundidade\marcosHideki_0_profundidade.cpp -o CMakeFiles\Buscas8Puzzle.dir\src\profundidade\marcosHideki_0_profundidade.cpp.s
 
 CMakeFiles/Buscas8Puzzle.dir/src/profundidade/marcosHideki_0_profundidade.cpp.obj.requires:
 
@@ -155,15 +155,15 @@ CMakeFiles/Buscas8Puzzle.dir/src/profundidade/marcosHideki_0_profundidade.cpp.ob
 CMakeFiles/Buscas8Puzzle.dir/src/heuristicas/marcosHideki_0_heuristicas.cpp.obj: CMakeFiles/Buscas8Puzzle.dir/flags.make
 CMakeFiles/Buscas8Puzzle.dir/src/heuristicas/marcosHideki_0_heuristicas.cpp.obj: ../src/heuristicas/marcosHideki_0_heuristicas.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hiyok\CLionProjects\search_8puzzle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Buscas8Puzzle.dir/src/heuristicas/marcosHideki_0_heuristicas.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Buscas8Puzzle.dir\src\heuristicas\marcosHideki_0_heuristicas.cpp.obj -c C:\Users\hiyok\CLionProjects\search_8puzzle\src\heuristicas\marcosHideki_0_heuristicas.cpp
+	A:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Buscas8Puzzle.dir\src\heuristicas\marcosHideki_0_heuristicas.cpp.obj -c C:\Users\hiyok\CLionProjects\search_8puzzle\src\heuristicas\marcosHideki_0_heuristicas.cpp
 
 CMakeFiles/Buscas8Puzzle.dir/src/heuristicas/marcosHideki_0_heuristicas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Buscas8Puzzle.dir/src/heuristicas/marcosHideki_0_heuristicas.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hiyok\CLionProjects\search_8puzzle\src\heuristicas\marcosHideki_0_heuristicas.cpp > CMakeFiles\Buscas8Puzzle.dir\src\heuristicas\marcosHideki_0_heuristicas.cpp.i
+	A:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hiyok\CLionProjects\search_8puzzle\src\heuristicas\marcosHideki_0_heuristicas.cpp > CMakeFiles\Buscas8Puzzle.dir\src\heuristicas\marcosHideki_0_heuristicas.cpp.i
 
 CMakeFiles/Buscas8Puzzle.dir/src/heuristicas/marcosHideki_0_heuristicas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Buscas8Puzzle.dir/src/heuristicas/marcosHideki_0_heuristicas.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hiyok\CLionProjects\search_8puzzle\src\heuristicas\marcosHideki_0_heuristicas.cpp -o CMakeFiles\Buscas8Puzzle.dir\src\heuristicas\marcosHideki_0_heuristicas.cpp.s
+	A:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hiyok\CLionProjects\search_8puzzle\src\heuristicas\marcosHideki_0_heuristicas.cpp -o CMakeFiles\Buscas8Puzzle.dir\src\heuristicas\marcosHideki_0_heuristicas.cpp.s
 
 CMakeFiles/Buscas8Puzzle.dir/src/heuristicas/marcosHideki_0_heuristicas.cpp.obj.requires:
 

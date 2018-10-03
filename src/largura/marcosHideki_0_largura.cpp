@@ -36,7 +36,7 @@ void run_largura(puzzle_node_t node_main)
 //    node = *node.down;
 
     std::vector<puzzle_node_t *> all_states;
-
+    double elapsed_secs;
     auto *node = new puzzle_node_t;
     memcpy(node, &node_main, sizeof(puzzle_node_t));
 
@@ -44,6 +44,7 @@ void run_largura(puzzle_node_t node_main)
 
     fila.push(*node);
     clock_t begin = clock();
+
 
     while (!fila.empty() && states < MAX_STATES)
     {
@@ -56,7 +57,7 @@ void run_largura(puzzle_node_t node_main)
             std::cout << "Puzzle Solved!! states: " << (int) states << std::endl;
             clock_t end = clock();
 
-            double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
+            elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
             std::fstream file;
             file.open("largura", std::ios::in | std::ios::app);
             file << "Solved! - " << elapsed_secs << " - " << states << std::endl;
@@ -71,25 +72,25 @@ void run_largura(puzzle_node_t node_main)
         swap_left(node);
         swap_right(node);
 
-        if ((node->up != nullptr) && (node->up != node->father))
+        if ((node->up != nullptr) && !check_states_visited(&all_states, node->up))
         {
             fila.push(*node->up);
             all_states.push_back(node->up);
         }
 
-        if ((node->down != nullptr) && (node->down != node->father))
+        if ((node->down != nullptr) && !check_states_visited(&all_states, node->down))
         {
             fila.push(*node->down);
             all_states.push_back(node->down);
         }
 
-        if ((node->left != nullptr) && (node->left != node->father))
+        if ((node->left != nullptr) && !check_states_visited(&all_states, node->left))
         {
             fila.push(*node->left);
             all_states.push_back(node->left);
         }
 
-        if ((node->right != nullptr) && (node->right != node->father))
+        if ((node->right != nullptr) && !check_states_visited(&all_states, node->right))
         {
             fila.push(*node->right);
             all_states.push_back(node->right);
@@ -102,7 +103,7 @@ void run_largura(puzzle_node_t node_main)
     {
         clock_t end = clock();
 
-        double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
+        elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
         std::fstream file;
         file.open("largura", std::ios::in | std::ios::app);
         file << "Not Solved! - " << elapsed_secs << " - " << states << std::endl;
@@ -114,4 +115,6 @@ void run_largura(puzzle_node_t node_main)
     for (int i = 0; i < all_states.size(); ++i) {
         free(all_states[i]);
     }
+
+    std::cout << "[Finished Width] - Seconds used: " << elapsed_secs << std::endl;
 }

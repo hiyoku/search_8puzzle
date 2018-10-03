@@ -4,11 +4,12 @@
 #include <cstdint>
 #include <ctime>
 #include <fstream>
+#include <vector>
 
 #define     X               0
 #define     Y               1
-#define     MAX_STATES      3000000
-#define     MAX_STATES_H    10000
+#define     MAX_STATES      300000
+#define     MAX_STATES_H    100000
 
 //#define     MOCK
 
@@ -37,6 +38,8 @@ typedef enum puzzle_movements_t
 
 /* Movement Functions */
 bool check_solved(puzzle_node_t *node);
+bool puzzle_is_same(puzzle_node_t *n1, puzzle_node_t *n2);
+bool check_states_visited(std::vector<puzzle_node_t*> *arr, puzzle_node_t *node);
 void init_first_node(puzzle_node_t *node);
 void swap_up(puzzle_node_t *node);
 void swap_down(puzzle_node_t *node);
